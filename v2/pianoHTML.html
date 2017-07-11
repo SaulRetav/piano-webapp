@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Piano App V2</title>
+  <link rel="stylesheet" href="pianoCSS.css">
+  <meta property="og:title" content="Piano App, V2" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://spencerv.x10host.com/pianoapp/v2/imgpreview.PNG" />
+  <meta property="og:url" content="http://spencerv.x10host.com/pianoapp/v2/pianoHTML.html" />
+</head>
+
+<body>
+<p><strong>Piano App, V2</strong><br>(Spencer Vaterlaus, 06/19/17)</p>
+
+<div id="upperKeys">
+  <div id="upperBlKeys">
+    <div class="blKey" id="Digit1">1</div>
+    <div class="blKey" id="Digit2">2</div>
+    <div class="blKey extraSpace" id="Digit4">4</div>
+    <div class="blKey" id="Digit5">5</div>
+    <div class="blKey" id="Digit6">6</div>
+    <div class="blKey extraSpace" id="Digit8">8</div>
+    <div class="blKey" id="Digit9">9</div>
+    <div class="blKey extraSpace" id="Minus">-</div>
+    <div class="blKey" id="Equal">=</div>
+    <div class="blKey" id="Backspace"><div id="rotateBackspace">Bksp</div></div>
+  </div>
+  <div class="whKey firstKey" id="Tab">Tab</div>
+  <div class="whKey" id="KeyQ">Q</div>
+  <div class="whKey" id="KeyW">W</div>
+  <div class="whKey" id="KeyE">E</div>
+  <div class="whKey" id="KeyR">R</div>
+  <div class="whKey" id="KeyT">T</div>
+  <div class="whKey" id="KeyY">Y</div>
+  <div class="whKey" id="KeyU">U</div>
+  <div class="whKey" id="KeyI">I</div>
+  <div class="whKey" id="KeyO">O</div>
+  <div class="whKey" id="KeyP">P</div>
+  <div class="whKey" id="BracketLeft">[</div>
+  <div class="whKey" id="BracketRight">]</div>
+  <div class="whKey lastKey" id="Backslash">\</div>
+</div>
+
+<div id="lowerKeys">
+  <div id="lowerBlKeys">
+    <div class="blKey" id="KeyA">A</div>
+    <div class="blKey" id="KeyS">S</div>
+    <div class="blKey extraSpace" id="KeyF">F</div>
+    <div class="blKey" id="KeyG">G</div>
+    <div class="blKey" id="KeyH">H</div>
+    <div class="blKey extraSpace" id="KeyK">K</div>
+    <div class="blKey" id="KeyL">L</div>
+    <div class="blKey extraSpace" id="Quote">'</div>
+    <div class="blKey" id="Enter"><div id="rotateEnter">Enter</div></div>
+    <div class="blKey" id="ArrowUp">&#x1F809;</div>
+  </div>
+  <div class="whKey firstKey" id="ShiftLeft">Shift</div>
+  <div class="whKey" id="KeyZ">Z</div>
+  <div class="whKey" id="KeyX">X</div>
+  <div class="whKey" id="KeyC">C</div>
+  <div class="whKey" id="KeyV">V</div>
+  <div class="whKey" id="KeyB">B</div>
+  <div class="whKey" id="KeyN">N</div>
+  <div class="whKey" id="KeyM">M</div>
+  <div class="whKey" id="Comma">,</div>
+  <div class="whKey" id="Period">.</div>
+  <div class="whKey" id="Slash">/</div>
+  <div class="whKey" id="ShiftRight">Shift</div>
+  <div class="whKey" id="ArrowLeft">&#x1F808;</div>
+  <div class="whKey lastKey" id="ArrowDown">&#x1F80B;</div>
+  <div class="whKey" id="ArrowRight">&#x1F80A;</div>
+</div>
+
+<div>
+  <audio id='C' src='../wav_files/39163__jobro__piano-ff-016.wav'></audio>
+  <audio id='C#' src='../wav_files/39164__jobro__piano-ff-017.wav'></audio>
+  <audio id='D' src='../wav_files/39165__jobro__piano-ff-018.wav'></audio>
+  <audio id='D#' src='../wav_files/39166__jobro__piano-ff-019.wav'></audio>
+  <audio id='E' src='../wav_files/39167__jobro__piano-ff-020.wav'></audio>
+  <audio id='F' src='../wav_files/39168__jobro__piano-ff-021.wav'></audio>
+  <audio id='F#' src='../wav_files/39169__jobro__piano-ff-022.wav'></audio>
+  <audio id='G' src='../wav_files/39170__jobro__piano-ff-023.wav'></audio>
+  <audio id='G#' src='../wav_files/39171__jobro__piano-ff-024.wav'></audio>
+  <audio id='A' src='../wav_files/39172__jobro__piano-ff-025.wav'></audio>
+  <audio id='A#' src='../wav_files/39173__jobro__piano-ff-026.wav'></audio>
+  <audio id='B' src='../wav_files/39174__jobro__piano-ff-027.wav'></audio>
+  <audio id='C1' src='../wav_files/39175__jobro__piano-ff-028.wav'></audio>
+  <audio id='C#1' src='../wav_files/39176__jobro__piano-ff-029.wav'></audio>
+  <audio id='D1' src='../wav_files/39177__jobro__piano-ff-030.wav'></audio>
+  <audio id='D#1' src='../wav_files/39178__jobro__piano-ff-031.wav'></audio>
+  <audio id='E1' src='../wav_files/39179__jobro__piano-ff-032.wav'></audio>
+  <audio id='F1' src='../wav_files/39180__jobro__piano-ff-033.wav'></audio>
+  <audio id='F#1'src='../wav_files/39181__jobro__piano-ff-034.wav'></audio>
+  <audio id='G1' src='../wav_files/39182__jobro__piano-ff-035.wav'></audio>
+  <audio id='G#1' src='../wav_files/39183__jobro__piano-ff-036.wav'></audio>
+  <audio id='A1' src='../wav_files/39184__jobro__piano-ff-037.wav'></audio>
+  <audio id='A#1' src='../wav_files/39185__jobro__piano-ff-038.wav'></audio>
+  <audio id='B1' src='../wav_files/39186__jobro__piano-ff-039.wav'></audio>
+  <audio id='C2' src='../wav_files/39187__jobro__piano-ff-040.wav'></audio>
+  <audio id='C#2' src='../wav_files/39188__jobro__piano-ff-041.wav'></audio>
+  <audio id='D2' src='../wav_files/39189__jobro__piano-ff-042.wav'></audio>
+  <audio id='D#2' src='../wav_files/39190__jobro__piano-ff-043.wav'></audio>
+  <audio id='E2' src='../wav_files/39191__jobro__piano-ff-044.wav'></audio>
+  <audio id='F2' src='../wav_files/39193__jobro__piano-ff-045.wav'></audio>
+  <audio id='F#2' src='../wav_files/39194__jobro__piano-ff-046.wav'></audio>
+  <audio id='G2' src='../wav_files/39195__jobro__piano-ff-047.wav'></audio>
+  <audio id='G#2' src='../wav_files/39196__jobro__piano-ff-048.wav'></audio>
+  <audio id='A2' src='../wav_files/39197__jobro__piano-ff-049.wav'></audio>
+  <audio id='A#2' src='../wav_files/39198__jobro__piano-ff-050.wav'></audio>
+  <audio id='B2' src='../wav_files/39199__jobro__piano-ff-051.wav'></audio>
+  <audio id='C3' src='../wav_files/39200__jobro__piano-ff-052.wav'></audio>
+  <audio id='C#3' src='../wav_files/39201__jobro__piano-ff-053.wav'></audio>
+  <audio id='D3' src='../wav_files/39202__jobro__piano-ff-054.wav'></audio>
+  <audio id='D#3' src='../wav_files/39203__jobro__piano-ff-055.wav'></audio>
+  <audio id='E3' src='../wav_files/39204__jobro__piano-ff-056.wav'></audio>
+  <audio id='F3' src='../wav_files/39205__jobro__piano-ff-057.wav'></audio>
+  <audio id='F#3' src='../wav_files/39206__jobro__piano-ff-058.wav'></audio>
+  <audio id='G3' src='../wav_files/39207__jobro__piano-ff-059.wav'></audio>
+  <audio id='G#3' src='../wav_files/39208__jobro__piano-ff-060.wav'></audio>
+  <audio id='A3' src='../wav_files/39209__jobro__piano-ff-061.wav'></audio>
+  <audio id='A#3' src='../wav_files/39210__jobro__piano-ff-062.wav'></audio>
+  <audio id='B3' src='../wav_files/39211__jobro__piano-ff-063.wav'></audio>
+  <audio id='C4' src='../wav_files/39212__jobro__piano-ff-064.wav'></audio>
+</div>
+
+<script src='pianoJS.js'></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+#upperKeys{
+  position: absolute;
+  width: 730px;
+  left: 50%;
+  margin-left: -365px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+#lowerKeys{
+  position: absolute;
+  top: 320px;
+  width: 782px;
+  left: 50%;
+  margin-left: -391px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.whKey{
+  width: 50px;
+  height: 200px;
+  border: solid black;
+  border-width: 4px 1px 2px 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  line-height: 300px;
+}
+
+#upperBlKeys{
+  position: absolute;
+  left: 17px;
+  width: 715px;
+}
+
+#lowerBlKeys{
+  position: absolute;
+  left: 17px;
+  width: 767px;
+}
+
+.blKey{
+  width: 30px;
+  height: 100px;
+  border: 1px solid black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  float: left;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-left: 20px;
+  line-height: 150px;
+}
+
+#rotateBackspace{
+  position: absolute;
+  line-height: 120px;
+  right: 32px;
+  transform: rotate(90deg);
+}
+
+#rotateEnter{
+  position: absolute;
+  line-height: 120px;
+  right: 134px;
+  transform: rotate(90deg);
+}
+
+.extraSpace{
+  margin-left: 72px;
+}
+
+.firstKey{
+  border-left-width: 2px;
+}
+
+.lastKey{
+  border-right-width: 2px;
+}
